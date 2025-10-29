@@ -17,10 +17,11 @@ export default function ModalScreen() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 1/2,
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
+    backgroundColor: 'transparent'
   },
   link: {
     marginTop: 15,
